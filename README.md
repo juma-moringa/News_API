@@ -40,4 +40,4 @@ View [live]()
 1. __Enjoy :)__
 
 ### Licence
-This project is under the  [MIT](license) licence.
+This project is under the  [MIT](license) license.
