@@ -3,7 +3,7 @@
 <div class="container">
 
     <!-- Popular movie section  -->
-    <h3> Top Headlines</h3>
+    <h3> Hot Topics in town</h3>
     {% for article_row in articles | batch(4)%}
 
     <div class="row">
@@ -19,12 +19,12 @@
                 <div class="caption">
                     <h4><a href="{{article.url}}" target="_blank">{{article.title}}</a></h4>
                     <p>{{article.description}}</p>
-                    <a href="{{article.url}}" target="_blank"> Read More</a>
+                    <a href="{{article.url}}" target="_blank"> See More Stories</a>
 
 
                 </div>
                 <div class="footer">
-                    Published at: {{article.date}}
+                    Updated on: {{article.date}}
 
 
                 </div>
