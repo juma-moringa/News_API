@@ -7,18 +7,20 @@
     {% for sources in source_row %}
     <div class="col-md-3">
 
-        <div class="panel panel-default">
+        <div class="card border-warning mb-3" style="max-width: 18rem; font-size:20px">
             <div class="panel-heading">
                 <a href="/sources/{{sources.id}}">
+                    <hr>
                     {{ sources.name}}
                 </a>
             </div>
             <div class="panel-body">
                 <p>
                     {{ sources.description}}
+                    <hr>
 
                 </p>
-                <a href="/sources/{{sources.id}}" class="btn btn-success btn-sm">Visit {{sources.name}}</a>
+                <a href="/sources/{{sources.id}}" class="btn btn-info btn-sm "style="font-size: 18px;">Visit {{sources.name}}</a>
             </div>
 
 
