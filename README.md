@@ -36,7 +36,7 @@ Follow the following simple steps to run the application
 1. Bootstrap
 ### Live Site
 
-View [live]()
+View [live](https://tuko-news254.herokuapp.com/)
 1. __Enjoy :)__
 
 ### Licence
