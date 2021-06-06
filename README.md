@@ -9,8 +9,8 @@ You need the following to get you started:
 1. Code editor.
 1. Virtual Environment.
 1. pip.
-You need to have git installed
-You can install it with the following command in your terminal
+1. You need to have git installed
+1. You can install it with the following command in your terminal
 `$ sudo apt install git-all`
 ### Setup
 To access this project on your local files, you can clone it using these steps
