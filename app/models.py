@@ -14,7 +14,7 @@ class Sources:
 
 class Articles:
     '''
-    Articles class to define articles objects
+    Articles class to define articles objects in our application
     '''
     def __init__(self,id,author,title,description,url,image,date):
         self.id = id
